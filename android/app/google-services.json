@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163829798275",
+    "project_id": "qilowatt-it",
+    "storage_bucket": "qilowatt-it.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163829798275:android:00892fd91127b7ddf4d2b6",
+        "android_client_info": {
+          "package_name": "com.qilowatt.qilowatt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "XXXX"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

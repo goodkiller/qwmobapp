@@ -1,0 +1,17 @@
+{
+  "thereHasBeenAProblem": "Tekkis probleem. Palun taaskäivitage rakendus.",
+  "noDevicesFound": "Qilowatt seadmeid ei leitud.",
+  "tryAgain": "Proovige uuesti.",
+  "failedToConnectTo": "Ühenduse loomine ebaõnnestus: ",
+  "connectionTookTooLong": "ühenduse loomine võttis liiga kaua aega",
+  "platformNotSupported": "Platvormi ei toetata.",
+  "locationPermissionsRequired": "Asukoha kasutus pole lubatud.",
+  "locationPermissionsDenied": "Asukoha kasutus pole keelatud.",
+  "locationAccuracyPermissionsDenied": "Täpne asukoha kasutus on keelatud.",
+  "locationServicesDisabled": "Asukohateave välja lülitatud.",
+  "wifiScanFailed": "Seadmete otsimine ebaõnnestus.",
+  "exception": "Viga",
+  "pleaseEnableWifi": "Palun lülitage WiFi sisse ja proovige uuesti.",
+  "search": "Otsi",
+  "restart": "Taaskäivita"
+}

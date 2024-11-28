@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "qilowatt-it",
+          "appId": "1:163829798275:android:00892fd91127b7ddf4d2b6",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "qilowatt-it",
+          "configurations": {
+            "android": "1:163829798275:android:00892fd91127b7ddf4d2b6",
+            "ios": "1:163829798275:ios:65e55c3b4a9d5989f4d2b6"
+          }
+        }
+      }
+    }
+  }
+}

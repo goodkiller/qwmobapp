@@ -1,0 +1,17 @@
+{
+  "thereHasBeenAProblem": "There has been a problem. Please restart the app.",
+  "noDevicesFound": "No Qilowatt devices found.",
+  "tryAgain": "Try again.",
+  "failedToConnectTo": "Failed to connect to ",
+  "connectionTookTooLong": "connection took too long",
+  "platformNotSupported": "Platform not supported.",
+  "locationPermissionsRequired": "Location permissions required.",
+  "locationPermissionsDenied": "Location permissions denied.",
+  "locationAccuracyPermissionsDenied": "Location upgrade accuracy permissions denied.",
+  "locationServicesDisabled": "Location services disabled.",
+  "wifiScanFailed": "WiFi scan failed.",
+  "exception": "Exception",
+  "pleaseEnableWifi": "Please enable WiFi and try again.",
+  "search": "Search",
+  "restart": "Restart"
+}
