@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-18.3.0-0 /Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-1 /Users/Marko.Praakli/.gradle/caches/transforms-3/0f89918d46b54b7a6d05455d857e7179/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-2 /Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.0.1-3 /Users/Marko.Praakli/.gradle/caches/transforms-3/7e5b24180d18278e8ac4bf24848c6162/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-4 /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-firebase-common-20.4.3-5 /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-6 /Users/Marko.Praakli/.gradle/caches/transforms-3/fb02b6e371ad652d7547455ea18b04d3/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-7 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.2/android/src/main/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-8 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/cloud_firestore-4.17.2/android/src/release/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-9 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/generated/res/pngs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-10 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/generated/res/resValues/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-11 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/generated/res/rs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-13 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-14 /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/merged_res/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-15 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_core/intermediates/packaged_res/release

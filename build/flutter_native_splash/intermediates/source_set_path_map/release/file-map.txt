@@ -1,0 +1,12 @@
+net.jonhanson.flutter_native_splash-jetified-annotation-experimental-1.1.0-0 /Users/Marko.Praakli/.gradle/caches/transforms-3/0f89918d46b54b7a6d05455d857e7179/transformed/jetified-annotation-experimental-1.1.0/res
+net.jonhanson.flutter_native_splash-core-1.6.0-1 /Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res
+net.jonhanson.flutter_native_splash-jetified-window-1.0.0-beta04-2 /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/res
+net.jonhanson.flutter_native_splash-jetified-window-java-1.0.0-beta04-3 /Users/Marko.Praakli/.gradle/caches/transforms-3/fb02b6e371ad652d7547455ea18b04d3/transformed/jetified-window-java-1.0.0-beta04/res
+net.jonhanson.flutter_native_splash-main-4 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.0/android/src/main/res
+net.jonhanson.flutter_native_splash-release-5 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/flutter_native_splash-2.4.0/android/src/release/res
+net.jonhanson.flutter_native_splash-pngs-6 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/generated/res/pngs/release
+net.jonhanson.flutter_native_splash-resValues-7 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/generated/res/resValues/release
+net.jonhanson.flutter_native_splash-rs-8 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/generated/res/rs/release
+net.jonhanson.flutter_native_splash-mergeReleaseResources-9 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/intermediates/incremental/release/mergeReleaseResources/merged.dir
+net.jonhanson.flutter_native_splash-mergeReleaseResources-10 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+net.jonhanson.flutter_native_splash-merged_res-11 /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_native_splash/intermediates/merged_res/release

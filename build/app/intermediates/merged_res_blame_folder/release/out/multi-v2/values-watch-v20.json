@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.qilowatt.qilowatt.app-mergeReleaseResources-55:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

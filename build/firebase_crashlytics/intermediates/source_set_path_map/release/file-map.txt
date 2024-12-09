@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-play-services-basement-18.3.0-0 /Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-annotation-experimental-1.1.0-1 /Users/Marko.Praakli/.gradle/caches/transforms-3/0f89918d46b54b7a6d05455d857e7179/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-core-1.6.0-2 /Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-datastore-preferences-1.0.0-3 /Users/Marko.Praakli/.gradle/caches/transforms-3/716e1a2d9bf00104d9b6dac8edfc9e8b/transformed/jetified-datastore-preferences-1.0.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-window-1.0.0-beta04-4 /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-datastore-1.0.0-5 /Users/Marko.Praakli/.gradle/caches/transforms-3/d9d0c79da3f19f5bfeba5f21977904a6/transformed/jetified-datastore-1.0.0/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-firebase-common-20.4.3-6 /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-jetified-window-java-1.0.0-beta04-7 /Users/Marko.Praakli/.gradle/caches/transforms-3/fb02b6e371ad652d7547455ea18b04d3/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-main-8 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.5.4/android/src/main/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-release-9 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_crashlytics-3.5.4/android/src/release/res
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-packaged_res-10 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-pngs-11 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/generated/res/pngs/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-resValues-12 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/generated/res/resValues/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-rs-13 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/generated/res/rs/release
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-mergeReleaseResources-14 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-mergeReleaseResources-15 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.crashlytics.firebase_crashlytics-merged_res-16 /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_res/release

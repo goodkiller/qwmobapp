@@ -8,7 +8,6 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:provider/provider.dart';
-import 'package:qilowatt/screens/add_device/add_device_screen.dart';
 import 'package:qilowatt/provider/locale_provider.dart';
 
 const String baseUri = 'https://app.qilowatt.it/';
@@ -88,27 +87,6 @@ class HomeController {
     } else {
       firestoreDocRef.update(firestoreData);
     }
-  }
-
-  NavigationActionPolicy onNavigationRequest(InAppWebViewController controller,
-      NavigationAction navigationAction, BuildContext context) {
-    final url = navigationAction.request.url.toString();
-
-    final isAddQilowattDevice =
-        url.startsWith('https://app.qilowatt.it/devices/new');
-    if (isAddQilowattDevice) {
-      _goToAddDevice(context);
-      return NavigationActionPolicy.CANCEL;
-    }
-    return NavigationActionPolicy.ALLOW;
-  }
-
-  Future<void> _goToAddDevice(BuildContext context) async {
-    await Navigator.of(context)
-        .push(MaterialPageRoute(builder: (context) => const AddDeviceScreen()));
-    webViewController?.loadUrl(
-      urlRequest: URLRequest(url: WebUri.uri(Uri.parse(baseUri))),
-    );
   }
 
   Future<void> onPageLoaded(String value, BuildContext context) async {

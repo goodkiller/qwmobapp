@@ -1,0 +1,12 @@
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-annotation-experimental-1.1.0-0 /Users/Marko.Praakli/.gradle/caches/transforms-3/0f89918d46b54b7a6d05455d857e7179/transformed/jetified-annotation-experimental-1.1.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-core-1.6.0-1 /Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-1.0.0-beta04-2 /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-jetified-window-java-1.0.0-beta04-3 /Users/Marko.Praakli/.gradle/caches/transforms-3/fb02b6e371ad652d7547455ea18b04d3/transformed/jetified-window-java-1.0.0-beta04/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-main-4 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/main/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-release-5 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2/android/src/release/res
+dev.fluttercommunity.plus.connectivity.connectivity_plus-pngs-6 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/generated/res/pngs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-resValues-7 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/generated/res/resValues/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-rs-8 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/generated/res/rs/release
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-9 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-mergeReleaseResources-10 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.fluttercommunity.plus.connectivity.connectivity_plus-merged_res-11 /Users/Marko.Praakli/Workspace/mobile-app/build/connectivity_plus/intermediates/merged_res/release

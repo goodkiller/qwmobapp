@@ -1,0 +1,4 @@
+#Mon Dec 09 11:55:23 EET 2024
+base.0=/Users/Marko.Praakli/Workspace/mobile-app/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

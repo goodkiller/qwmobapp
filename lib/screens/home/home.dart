@@ -56,10 +56,6 @@ class _HomeState extends State<Home> {
                                 URLRequest(url: WebUri.uri(Uri.parse(baseUri))),
                             onWebViewCreated: (controller) =>
                                 homeController.webViewController = controller,
-                            shouldOverrideUrlLoading:
-                                (controller, navigationAction) async =>
-                                    homeController.onNavigationRequest(
-                                        controller, navigationAction, context),
                             onLoadStop: (controller, url) async {
                               pullToRefreshController.endRefreshing();
                               return homeController.onPageLoaded(
