@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.qilowatt.qilowatt.app-mergeReleaseResources-55:/values-night-v31/values-night-v31.xml",
+            "outputFile": "com.qilowatt.qilowatt.app-mergeReleaseResources-57:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/res/values-night-v31/styles.xml",
+                    "source": "/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/res/values-night-v31/styles.xml",
                     "from": {
                         "startLines": "3,17",
                         "startColumns": "4,4",

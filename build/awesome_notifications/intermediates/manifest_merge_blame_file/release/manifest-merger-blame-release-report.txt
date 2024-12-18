@@ -3,99 +3,90 @@
 3    package="me.carda.awesome_notifications" >
 4
 5    <uses-sdk
-6        android:minSdkVersion="21"
-6-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml
+6        android:minSdkVersion="23"
+6-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="34" />
-7-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml
+7-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml
 8
-9    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-9-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:4:5-76
-9-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:4:22-74
-10    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
-10-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:5:5-89
-10-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:5:22-86
-11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-11-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:6:5-80
-11-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:6:22-78
-12    <uses-permission android:name="android.permission.VIBRATE" />
-12-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:7:5-65
-12-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:7:22-63
-13
-14    <application>
-14-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:9:5-46:19
+9    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+9-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:4:5-89
+9-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:4:22-86
+10
+11    <application>
+11-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:6:5-43:19
+12        <receiver
+12-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:8:9-9:38
+13            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+13-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:8:19-65
+14            android:exported="true" />
+14-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:9:13-36
 15        <receiver
-15-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:11:9-12:38
-16            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
-16-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:11:19-65
+15-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:11:9-12:38
+16            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+16-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:11:19-68
 17            android:exported="true" />
-17-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:12:13-36
+17-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:12:13-36
 18        <receiver
-18-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:14:9-15:38
-19            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
-19-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:14:19-68
+18-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:14:9-15:38
+19            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+19-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:14:19-68
 20            android:exported="true" />
-20-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:15:13-36
+20-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:15:13-36
 21        <receiver
-21-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:17:9-18:38
-22            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
-22-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:17:19-68
-23            android:exported="true" />
-23-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:18:13-36
-24        <receiver
-24-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:20:9-33:20
-25            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
-25-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:21:13-57
-26            android:enabled="true"
-26-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:22:13-35
-27            android:exported="true" >
-27-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:23:13-36
-28            <intent-filter>
-28-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:24:13-32:29
-29                <category android:name="android.intent.category.DEFAULT" />
-29-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:25:17-75
-29-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:25:27-73
-30
-31                <action android:name="android.intent.action.BOOT_COMPLETED" />
-31-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:26:17-78
-31-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:26:25-76
-32                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-32-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:27:17-85
-32-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:27:25-83
-33                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-33-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:28:17-83
-33-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:28:25-81
-34                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-34-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:29:17-81
-34-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:29:25-79
-35                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-35-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:30:17-81
-35-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:30:25-79
-36                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
-36-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:31:17-106
-36-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:31:25-104
-37            </intent-filter>
-38        </receiver>
-39
-40        <service
-40-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:35:9-37:39
-41            android:name="me.carda.awesome_notifications.DartBackgroundService"
-41-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:35:18-55
-42            android:exported="false"
-42-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:37:13-37
-43            android:permission="android.permission.BIND_JOB_SERVICE" />
-43-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:36:13-69
-44        <service
-44-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:39:9-44:43
-45            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
-45-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:40:13-90
-46            android:enabled="true"
-46-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:41:13-35
-47            android:exported="false"
-47-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:42:13-37
-48            android:foregroundServiceType="phoneCall"
-48-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:43:13-54
-49            android:stopWithTask="true" />
-49-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.8.2/android/src/main/AndroidManifest.xml:44:13-40
-50    </application>
-51
-52</manifest>
+21-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:17:9-30:20
+22            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+22-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:18:13-57
+23            android:enabled="true"
+23-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:19:13-35
+24            android:exported="true" >
+24-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:20:13-36
+25            <intent-filter>
+25-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:21:13-29:29
+26                <category android:name="android.intent.category.DEFAULT" />
+26-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:22:17-75
+26-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:22:27-73
+27
+28                <action android:name="android.intent.action.BOOT_COMPLETED" />
+28-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:23:17-78
+28-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:23:25-76
+29                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+29-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:24:17-85
+29-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:24:25-83
+30                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+30-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:25:17-83
+30-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:25:25-81
+31                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+31-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:26:17-81
+31-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:26:25-79
+32                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+32-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:27:17-81
+32-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:27:25-79
+33                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+33-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:28:17-106
+33-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:28:25-104
+34            </intent-filter>
+35        </receiver>
+36
+37        <service
+37-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:32:9-34:39
+38            android:name="me.carda.awesome_notifications.DartBackgroundService"
+38-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:32:18-55
+39            android:exported="false"
+39-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:34:13-37
+40            android:permission="android.permission.BIND_JOB_SERVICE" />
+40-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:33:13-69
+41        <service
+41-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:36:9-41:43
+42            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+42-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:37:13-90
+43            android:enabled="true"
+43-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:38:13-35
+44            android:exported="false"
+44-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:39:13-37
+45            android:foregroundServiceType="phoneCall"
+45-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:40:13-54
+46            android:stopWithTask="true" />
+46-->/Users/Marko.Praakli/.pub-cache/hosted/pub.dev/awesome_notifications-0.10.0/android/src/main/AndroidManifest.xml:41:13-40
+47    </application>
+48
+49</manifest>

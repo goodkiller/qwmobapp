@@ -10,5 +10,5 @@ public final class BuildConfig {
   // Field from default config.
   public static final String LIBRARY_NAME = "flutter-fire-fcm";
   // Field from default config.
-  public static final String LIBRARY_VERSION = "14.9.1";
+  public static final String LIBRARY_VERSION = "15.1.6";
 }

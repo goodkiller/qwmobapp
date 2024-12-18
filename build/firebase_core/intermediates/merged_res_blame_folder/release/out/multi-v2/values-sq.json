@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10:/values-sq/values-sq.xml",
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-26:/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/res/values-sq/values.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,792",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,921",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,1017"
+                    }
+                },
+                {
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/4d564cbb74d104932102d195afdac597/transformed/jetified-play-services-basement-18.3.0/res/values-sq/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -13,37 +30,37 @@
                         "endOffsets": "319"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "792",
                         "endColumns": "128",
-                        "endOffsets": "179"
-                    }
-                },
-                {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res/values-sq/values-sq.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "184",
-                        "endColumns": "100",
-                        "endOffsets": "280"
+                        "endOffsets": "916"
                     }
                 }
             ]
         },
         {
-            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-merged_res-12:/values-sq/values-sq.xml",
+            "outputFile": "io.flutter.plugins.firebase.core.firebase_core-merged_res-28:/values-sq/values-sq.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/res/values-sq/values.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,792",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,888"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,256,354,451,559,670,921",
+                        "endColumns": "98,101,97,96,107,110,121,100",
+                        "endOffsets": "149,251,349,446,554,665,787,1017"
+                    }
+                },
+                {
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/4d564cbb74d104932102d195afdac597/transformed/jetified-play-services-basement-18.3.0/res/values-sq/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -52,28 +69,11 @@
                         "endOffsets": "319"
                     },
                     "to": {
-                        "startLines": "2",
+                        "startLines": "9",
                         "startColumns": "4",
-                        "startOffsets": "55",
+                        "startOffsets": "792",
                         "endColumns": "128",
-                        "endOffsets": "179"
-                    }
-                },
-                {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res/values-sq/values-sq.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "184",
-                        "endColumns": "100",
-                        "endOffsets": "280"
+                        "endOffsets": "916"
                     }
                 }
             ]

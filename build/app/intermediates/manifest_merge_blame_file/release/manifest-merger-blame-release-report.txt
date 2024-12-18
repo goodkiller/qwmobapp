@@ -5,764 +5,761 @@
 5    android:versionName="2.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="21"
-8-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml
+8        android:minSdkVersion="23"
+8-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml
+9-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.VIBRATE" />
-11-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:2:5-66
-11-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:2:22-63
+11-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:2:5-66
+11-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:2:22-63
 12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-12-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:3:5-81
-12-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:3:22-78
+12-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:3:5-81
+12-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:3:22-78
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:4:5-66
-13-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:4:22-64
-14
-15    <queries>
-15-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
-16        <intent>
-16-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
-17            <action android:name="android.support.customtabs.action.CustomTabsService" />
-17-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
-17-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
-18        </intent>
-19    </queries>
-20
-21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
-21-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
-22    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
-22-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
-22-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
-23    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-23-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
-23-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
-24    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
-24-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-89
-24-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-86
+13-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:4:5-66
+13-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:4:22-64
+14    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+14-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-89
+14-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-86
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:connectivity_plus] /Users/Marko.Praakli/Workspace/qwmobapp/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+15-->[:connectivity_plus] /Users/Marko.Praakli/Workspace/qwmobapp/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+16-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-68
+16-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-65
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+17-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+18
+19    <queries>
+19-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+20        <intent>
+20-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+21            <action android:name="android.support.customtabs.action.CustomTabsService" />
+21-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+21-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+22        </intent>
+23    </queries>
+24
 25    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-25-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:25:5-79
-25-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:25:22-76
+25-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+25-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
 26    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-26-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:26:5-88
-26-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:26:22-85
+26-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+26-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
 27    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-27-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:27:5-82
-27-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:27:22-79
+27-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+27-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
 28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-28-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:5-82
-28-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:22-79
+28-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:26:22-79
 29    <uses-permission
-29-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:10:5-12:38
+29-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:9:5-12:47
 30        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
-30-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:11:9-77
+30-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:10:9-77
 31        android:maxSdkVersion="22" />
-31-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:12:9-35
+31-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:11:9-35
 32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-32-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:26:5-110
-32-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:26:22-107
+32-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+32-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
 33
 34    <permission
-34-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+34-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
 35        android:name="com.qilowatt.qilowatt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-35-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+35-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
 36        android:protectionLevel="signature" />
-36-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+36-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
 37
 38    <uses-permission android:name="com.qilowatt.qilowatt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
-38-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-38-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+38-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+38-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
 39    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 40    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 41    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
 42    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
 43    <!-- for Samsung -->
 44    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
 45    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
 46    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
 47    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
 48    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
 49    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-49-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-49-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
 50    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-50-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-50-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
 51    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-51-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-51-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
 52    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-52-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-52-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
 53    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-53-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-53-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
 54    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-54-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-54-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
 55    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-55-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-55-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
 56    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-56-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-56-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
 57    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-57-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-57-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
 58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-58-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-58-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
 59    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-59-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-59-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/2c680ed2f49ced8b11986609763d1340/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/Marko.Praakli/.gradle/caches/transforms-3/df1a8060ae99d512e8351cea1f2db3ef/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 60
 61    <application
 62        android:name="android.app.Application"
-62-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:7:9-42
+62-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:7:9-42
 63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-63-->[androidx.core:core:1.9.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/14ff5320fca05fe28077b786ccd7333f/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-64        android:icon="@mipmap/ic_launcher"
-64-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:9:9-43
-65        android:label="qilowatt"
-65-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:6:9-33
-66        android:usesCleartextTraffic="true" >
-66-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:8:9-44
-67        <activity
-67-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:10:9-30:20
-68            android:name="com.qilowatt.qilowatt.MainActivity"
-68-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:11:13-41
-69            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-69-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:15:13-163
-70            android:exported="true"
-70-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:12:13-36
-71            android:hardwareAccelerated="true"
-71-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:16:13-47
-72            android:launchMode="singleTop"
-72-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:13:13-43
-73            android:theme="@style/LaunchTheme"
-73-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:14:13-47
-74            android:windowSoftInputMode="adjustResize" >
-74-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:17:13-55
-75
-76            <!--
-77                 Specifies an Android theme to apply to this Activity as soon as
-78                 the Android process has started. This theme is visible to the user
-79                 while the Flutter UI initializes. After that, this theme continues
-80                 to determine the Window background behind the Flutter UI.
-81            -->
-82            <meta-data
-82-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:22:13-25:17
-83                android:name="io.flutter.embedding.android.NormalTheme"
-83-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:23:15-70
-84                android:resource="@style/NormalTheme" />
-84-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:24:15-52
-85
-86            <intent-filter>
-86-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:26:13-29:29
-87                <action android:name="android.intent.action.MAIN" />
-87-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:27:17-68
-87-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:27:25-66
-88
-89                <category android:name="android.intent.category.LAUNCHER" />
-89-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:28:17-76
-89-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:28:27-74
-90            </intent-filter>
-91        </activity>
-92        <!--
-93             Don't delete the meta-data below.
-94             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-95        -->
-96        <meta-data
-96-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:33:9-35:33
-97            android:name="flutterEmbedding"
-97-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:34:13-44
-98            android:value="2" />
-98-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:35:13-30
-99        <meta-data
-99-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:36:9-38:56
-100            android:name="com.google.firebase.messaging.default_notification_icon"
-100-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:37:13-83
-101            android:resource="@drawable/ic_launcher" />
-101-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:38:13-53
-102        <meta-data
-102-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:40:9-41:54
-103            android:name="com.google.firebase.messaging.default_notification_channel_id"
-103-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:40:20-96
-104            android:value="high_importance_channel" />
-104-->/Users/Marko.Praakli/Workspace/mobile-app/android/app/src/main/AndroidManifest.xml:41:13-52
-105
-106        <activity
-106-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
-107            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
-107-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-112
-108            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
-108-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
-109            android:exported="false"
-109-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
-110            android:theme="@style/AppTheme" />
-110-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
-111        <activity
-111-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
-112            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
-112-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-120
-113            android:exported="false"
-113-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
-114            android:theme="@style/ThemeTransparent" />
-114-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
-115        <activity
-115-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
-116            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
-116-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-114
-117            android:exported="false"
-117-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
-118            android:theme="@style/ThemeTransparent" />
-118-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
-119        <activity
-119-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
-120            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
-120-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-134
-121            android:exported="false"
-121-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
-122            android:launchMode="singleInstance"
-122-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
-123            android:theme="@style/ThemeTransparent" />
-123-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
-124        <activity
-124-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
-125            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
-125-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-128
-126            android:exported="false"
-126-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
-127            android:launchMode="singleInstance"
-127-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
-128            android:theme="@style/ThemeTransparent" />
-128-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
-129
-130        <receiver
-130-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
-131            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
-131-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-119
-132            android:enabled="true"
-132-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
-133            android:exported="false" />
-133-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
-134
-135        <meta-data
-135-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
-136            android:name="io.flutter.embedded_views_preview"
-136-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
-137            android:value="true" />
-137-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/mobile-app/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
-138
-139        <service
-139-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-140            android:name="com.google.firebase.components.ComponentDiscoveryService"
-140-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
-141            android:directBootAware="true"
-141-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:32:13-43
-142            android:exported="false" >
-142-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:14:13-37
-143            <meta-data
-143-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-144                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
-144-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
-145                android:value="com.google.firebase.components.ComponentRegistrar" />
-145-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+63-->[androidx.core:core:1.13.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+64        android:extractNativeLibs="false"
+65        android:icon="@mipmap/ic_launcher"
+65-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:9:9-43
+66        android:label="qilowatt"
+66-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:6:9-33
+67        android:usesCleartextTraffic="true" >
+67-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:8:9-44
+68        <activity
+68-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:10:9-30:20
+69            android:name="com.qilowatt.qilowatt.MainActivity"
+69-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:11:13-41
+70            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+70-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:15:13-163
+71            android:exported="true"
+71-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:12:13-36
+72            android:hardwareAccelerated="true"
+72-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:16:13-47
+73            android:launchMode="singleTop"
+73-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:13:13-43
+74            android:theme="@style/LaunchTheme"
+74-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:14:13-47
+75            android:windowSoftInputMode="adjustResize" >
+75-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:17:13-55
+76
+77            <!--
+78                 Specifies an Android theme to apply to this Activity as soon as
+79                 the Android process has started. This theme is visible to the user
+80                 while the Flutter UI initializes. After that, this theme continues
+81                 to determine the Window background behind the Flutter UI.
+82            -->
+83            <meta-data
+83-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:22:13-25:17
+84                android:name="io.flutter.embedding.android.NormalTheme"
+84-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:23:15-70
+85                android:resource="@style/NormalTheme" />
+85-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:24:15-52
+86
+87            <intent-filter>
+87-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:26:13-29:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:27:17-68
+88-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:27:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:28:17-76
+90-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:28:27-74
+91            </intent-filter>
+92        </activity>
+93        <!--
+94             Don't delete the meta-data below.
+95             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+96        -->
+97        <meta-data
+97-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:33:9-35:33
+98            android:name="flutterEmbedding"
+98-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:34:13-44
+99            android:value="2" />
+99-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:35:13-30
+100        <meta-data
+100-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:36:9-38:56
+101            android:name="com.google.firebase.messaging.default_notification_icon"
+101-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:37:13-83
+102            android:resource="@drawable/ic_launcher" />
+102-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:38:13-53
+103        <meta-data
+103-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:40:9-41:54
+104            android:name="com.google.firebase.messaging.default_notification_channel_id"
+104-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:40:20-96
+105            android:value="high_importance_channel" />
+105-->/Users/Marko.Praakli/Workspace/qwmobapp/android/app/src/main/AndroidManifest.xml:41:13-52
+106
+107        <receiver
+107-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:39
+108            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+108-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-89
+109            android:exported="true" />
+109-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-36
+110        <receiver
+110-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:39
+111            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+111-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-92
+112            android:exported="true" />
+112-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
+113        <receiver
+113-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-20:39
+114            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+114-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-92
+115            android:exported="true" />
+115-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-36
+116        <receiver
+116-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-35:20
+117            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+117-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-87
+118            android:enabled="true"
+118-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-35
+119            android:exported="true" >
+119-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-36
+120            <intent-filter>
+120-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-34:29
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-76
+121-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:27-73
+122
+123                <action android:name="android.intent.action.BOOT_COMPLETED" />
+123-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-79
+123-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-76
+124                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+124-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-86
+124-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-83
+125                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+125-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-84
+125-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-81
+126                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+126-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-82
+126-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-79
+127                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+127-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-82
+127-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-79
+128                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+128-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-107
+128-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-104
+129            </intent-filter>
+130        </receiver>
+131
+132        <service
+132-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-40:72
+133            android:name="me.carda.awesome_notifications.DartBackgroundService"
+133-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-80
+134            android:exported="false"
+134-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-69
+136        <service
+136-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-46:43
+137            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+137-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-90
+138            android:enabled="true"
+138-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-35
+139            android:exported="false"
+139-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+140            android:foregroundServiceType="phoneCall"
+140-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-54
+141            android:stopWithTask="true" />
+141-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/qwmobapp/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-40
+142        <service
+142-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+143            android:name="com.google.firebase.components.ComponentDiscoveryService"
+143-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+145            android:exported="false" >
+145-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:14:13-37
 146            <meta-data
-146-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
-147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
-147-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-128
+146-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+147-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 148                android:value="com.google.firebase.components.ComponentRegistrar" />
-148-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+148-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 149            <meta-data
-149-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-150-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+149-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+150                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+150-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-128
 151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/mobile-app/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+151-->[:firebase_analytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
 152            <meta-data
-152-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
-153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-153-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+152-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+153                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+153-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-130
 154                android:value="com.google.firebase.components.ComponentRegistrar" />
-154-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+154-->[:firebase_crashlytics] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 155            <meta-data
-155-->[:firebase_core] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-156-->[:firebase_core] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+155-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+156                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+156-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
 157                android:value="com.google.firebase.components.ComponentRegistrar" />
-157-->[:firebase_core] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+157-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
 158            <meta-data
-158-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:15:13-17:85
-159                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
-159-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:16:17-126
+158-->[:firebase_core] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+159                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+159-->[:firebase_core] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
-160-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:17:17-82
+160-->[:firebase_core] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 161            <meta-data
-161-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:18:13-20:85
-162                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-162-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:19:17-115
+161-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:15:13-17:85
+162                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+162-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:16:17-126
 163                android:value="com.google.firebase.components.ComponentRegistrar" />
-163-->[com.google.firebase:firebase-crashlytics:18.6.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/0d84ad63f467b51128a92d1607b49915/transformed/jetified-firebase-crashlytics-18.6.3/AndroidManifest.xml:20:17-82
+163-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:17:17-82
 164            <meta-data
-164-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:29:13-31:85
-165                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
-165-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:30:17-117
+164-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:18:13-20:85
+165                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+165-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:19:17-115
 166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:31:17-82
+166-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:20:17-82
 167            <meta-data
-167-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:37:13-39:85
-168                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-168-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:38:17-139
+167-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+168                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+168-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
 169                android:value="com.google.firebase.components.ComponentRegistrar" />
-169-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:39:17-82
+169-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
 170            <meta-data
-170-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:17:13-19:85
-171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-171-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:18:17-122
+170-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+171                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+171-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
 172                android:value="com.google.firebase.components.ComponentRegistrar" />
-172-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:19:17-82
+172-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
 173            <meta-data
-173-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:20:13-22:85
-174                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-174-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:21:17-111
+173-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+174                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+174-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
 175                android:value="com.google.firebase.components.ComponentRegistrar" />
-175-->[com.google.firebase:firebase-firestore:24.11.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/983b77d5832251f435ebb2b68022a8b9/transformed/jetified-firebase-firestore-24.11.0/AndroidManifest.xml:22:17-82
+175-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
 176            <meta-data
-176-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+176-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:57:13-59:85
 177                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-177-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+177-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:58:17-122
 178                android:value="com.google.firebase.components.ComponentRegistrar" />
-178-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+178-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:59:17-82
 179            <meta-data
-179-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+179-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:60:13-62:85
 180                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-180-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+180-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:61:17-119
 181                android:value="com.google.firebase.components.ComponentRegistrar" />
-181-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+181-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:62:17-82
 182            <meta-data
-182-->[com.google.firebase:firebase-iid:21.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4c92887720ba3ba37a24c7c8c3a7758/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-183                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-183-->[com.google.firebase:firebase-iid:21.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4c92887720ba3ba37a24c7c8c3a7758/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+182-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:29:13-31:85
+183                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+183-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:30:17-117
 184                android:value="com.google.firebase.components.ComponentRegistrar" />
-184-->[com.google.firebase:firebase-iid:21.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4c92887720ba3ba37a24c7c8c3a7758/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+184-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:31:17-82
 185            <meta-data
-185-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+185-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
 186                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
-186-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+186-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
 187                android:value="com.google.firebase.components.ComponentRegistrar" />
-187-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+187-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
 188            <meta-data
-188-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+188-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
 189                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-189-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+189-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
 190                android:value="com.google.firebase.components.ComponentRegistrar" />
-190-->[com.google.firebase:firebase-installations:17.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/f03dc56c8bbd93651b2dd26a33da0323/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+190-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
 191            <meta-data
-191-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/007917418a3234967471888ab82ade6c/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:12:13-14:85
+191-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/381a8c5274ca0f9cf2a544c53d44f943/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
 192                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-192-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/007917418a3234967471888ab82ade6c/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:13:17-116
+192-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/381a8c5274ca0f9cf2a544c53d44f943/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
 193                android:value="com.google.firebase.components.ComponentRegistrar" />
-193-->[com.google.firebase:firebase-common-ktx:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/007917418a3234967471888ab82ade6c/transformed/jetified-firebase-common-ktx-20.4.3/AndroidManifest.xml:14:17-82
+193-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/381a8c5274ca0f9cf2a544c53d44f943/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
 194            <meta-data
-194-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/Marko.Praakli/.gradle/caches/transforms-3/c407bad4f97f7d1caf29276a8997066d/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
-195                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-195-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/Marko.Praakli/.gradle/caches/transforms-3/c407bad4f97f7d1caf29276a8997066d/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+194-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+195                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+195-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
 196                android:value="com.google.firebase.components.ComponentRegistrar" />
-196-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/Marko.Praakli/.gradle/caches/transforms-3/c407bad4f97f7d1caf29276a8997066d/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+196-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
 197            <meta-data
-197-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:35:13-37:85
-198                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-198-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:36:17-109
+197-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/1ca75f308dbeac03fdc81e1cd60adeab/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+198                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+198-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/1ca75f308dbeac03fdc81e1cd60adeab/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
 199                android:value="com.google.firebase.components.ComponentRegistrar" />
-199-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:37:17-82
+199-->[com.google.firebase:firebase-datatransport:19.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/1ca75f308dbeac03fdc81e1cd60adeab/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
 200        </service>
 201        <service
-201-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+201-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
 202            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-202-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+202-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
 203            android:exported="false"
-203-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+203-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 204            android:permission="android.permission.BIND_JOB_SERVICE" />
-204-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+204-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
 205        <service
-205-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+205-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
 206            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-206-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+206-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
 207            android:exported="false" >
-207-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+207-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
 208            <intent-filter>
-208-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+208-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
 209                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-209-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-209-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+209-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+209-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
 210            </intent-filter>
 211        </service>
 212
 213        <receiver
-213-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+213-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
 214            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-214-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+214-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
 215            android:exported="true"
-215-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+215-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
 216            android:permission="com.google.android.c2dm.permission.SEND" >
-216-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+216-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
 217            <intent-filter>
-217-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+217-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
 218                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-218-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-218-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+218-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+218-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
 219            </intent-filter>
 220        </receiver>
 221
 222        <provider
-222-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+222-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
 223            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-223-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+223-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
 224            android:authorities="com.qilowatt.qilowatt.flutterfirebasemessaginginitprovider"
-224-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+224-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
 225            android:exported="false"
-225-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+225-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
 226            android:initOrder="99" />
-226-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+226-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
 227
-228        <receiver
-228-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:39
-229            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
-229-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-89
-230            android:exported="true" />
-230-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
-231        <receiver
-231-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-20:39
-232            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
-232-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-92
-233            android:exported="true" />
-233-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-36
-234        <receiver
-234-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-23:39
-235            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
-235-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-92
-236            android:exported="true" />
-236-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
-237        <receiver
-237-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-38:20
-238            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
-238-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-87
-239            android:enabled="true"
-239-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-35
-240            android:exported="true" >
-240-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
-241            <intent-filter>
-241-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37:29
-242                <category android:name="android.intent.category.DEFAULT" />
-242-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-76
-242-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:27-73
-243
-244                <action android:name="android.intent.action.BOOT_COMPLETED" />
-244-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-79
-244-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-76
-245                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-245-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-86
-245-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-83
-246                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-246-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-84
-246-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-81
-247                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-247-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:17-82
-247-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:25-79
-248                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-248-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-82
-248-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:25-79
-249                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
-249-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-107
-249-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:25-104
-250            </intent-filter>
-251        </receiver>
-252
-253        <service
-253-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:72
-254            android:name="me.carda.awesome_notifications.DartBackgroundService"
-254-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-80
-255            android:exported="false"
-255-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
-256            android:permission="android.permission.BIND_JOB_SERVICE" />
-256-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-69
-257        <service
-257-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:9-49:43
-258            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
-258-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-90
-259            android:enabled="true"
-259-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-35
-260            android:exported="false"
-260-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-37
-261            android:foregroundServiceType="phoneCall"
-261-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-54
-262            android:stopWithTask="true" />
-262-->[:awesome_notifications] /Users/Marko.Praakli/Workspace/mobile-app/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-40
-263        <service
-263-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:22:9-25:40
-264            android:name="com.google.firebase.sessions.SessionLifecycleService"
-264-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:23:13-80
-265            android:enabled="true"
-265-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:24:13-35
-266            android:exported="false" />
-266-->[com.google.firebase:firebase-sessions:1.2.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/c1a32f257a33f69813b029bbfc9ae339/transformed/jetified-firebase-sessions-1.2.3/AndroidManifest.xml:25:13-37
-267
-268        <property
-268-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:30:9-32:61
-269            android:name="android.adservices.AD_SERVICES_CONFIG"
-269-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:31:13-65
-270            android:resource="@xml/ga_ad_services_config" />
-270-->[com.google.android.gms:play-services-measurement-api:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/b4f8a50d3ae1a200c68a9f5d56530f48/transformed/jetified-play-services-measurement-api-21.6.1/AndroidManifest.xml:32:13-58
-271
-272        <receiver
-272-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
-273            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-273-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
-274            android:exported="true"
-274-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
-275            android:permission="com.google.android.c2dm.permission.SEND" >
-275-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
-276            <intent-filter>
-276-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
-277                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-277-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
-277-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
-278            </intent-filter>
-279
-280            <meta-data
-280-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
-281                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-281-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
-282                android:value="true" />
-282-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
-283        </receiver>
-284        <!--
-285             FirebaseMessagingService performs security checks at runtime,
-286             but set to not exported to explicitly avoid allowing another app to call it.
-287        -->
-288        <service
-288-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
-289            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-289-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
-290            android:directBootAware="true"
-290-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
-291            android:exported="false" >
-291-->[com.google.firebase:firebase-messaging:23.4.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/bad27bdfa6a6226230536e662ad98030/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
-292            <intent-filter android:priority="-500" >
-292-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
-293                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-293-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
-293-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/mobile-app/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
-294            </intent-filter>
-295        </service>
-296        <service
-296-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
-297            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-297-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
-298            android:exported="false" >
-298-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
-299            <meta-data
-299-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
-300                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-300-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
-301                android:value="cct" />
-301-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/df687214a6a747d591016c9664d9383d/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
-302        </service>
-303        <service
-303-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:21:9-28:19
-304            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
-304-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:22:13-89
-305            android:exported="true"
-305-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:23:13-36
-306            android:label="My Notification Listener Service" >
-306-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:24:13-61
-307            <intent-filter>
-307-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:25:13-27:29
-308                <action android:name="android.service.notification.NotificationListenerService" />
-308-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:17-99
-308-->[me.carda:AndroidAwnCore:0.8.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/2fdee86deeeb665dd3a9d4501cc29e0f/transformed/jetified-AndroidAwnCore-0.8.3/AndroidManifest.xml:26:25-96
-309            </intent-filter>
-310        </service>
-311        <service
-311-->[androidx.room:room-runtime:2.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/304c26641b9ca8302f12bae99589c3b0/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
-312            android:name="androidx.room.MultiInstanceInvalidationService"
-312-->[androidx.room:room-runtime:2.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/304c26641b9ca8302f12bae99589c3b0/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
-313            android:directBootAware="true"
-313-->[androidx.room:room-runtime:2.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/304c26641b9ca8302f12bae99589c3b0/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
-314            android:exported="false" />
-314-->[androidx.room:room-runtime:2.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/304c26641b9ca8302f12bae99589c3b0/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
-315
-316        <receiver
-316-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:29:9-33:20
-317            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-317-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:30:13-85
-318            android:enabled="true"
-318-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:31:13-35
-319            android:exported="false" >
-319-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:32:13-37
-320        </receiver>
-321
-322        <service
-322-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:35:9-38:40
-323            android:name="com.google.android.gms.measurement.AppMeasurementService"
-323-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:36:13-84
-324            android:enabled="true"
-324-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:37:13-35
-325            android:exported="false" />
-325-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:38:13-37
-326        <service
-326-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:39:9-43:72
-327            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-327-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:40:13-87
-328            android:enabled="true"
-328-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:41:13-35
-329            android:exported="false"
-329-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:42:13-37
-330            android:permission="android.permission.BIND_JOB_SERVICE" />
-330-->[com.google.android.gms:play-services-measurement:21.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/1c1badd48325294faed86c9ce65a7b4d/transformed/jetified-play-services-measurement-21.6.1/AndroidManifest.xml:43:13-69
-331
-332        <uses-library
-332-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/383294ef661e43d10f0cf91376c9bdd4/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-333            android:name="android.ext.adservices"
-333-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/383294ef661e43d10f0cf91376c9bdd4/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
-334            android:required="false" />
-334-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/383294ef661e43d10f0cf91376c9bdd4/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
-335        <uses-library
-335-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-336            android:name="androidx.window.extensions"
-336-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-337            android:required="false" />
-337-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-338        <uses-library
-338-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-339            android:name="androidx.window.sidecar"
-339-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-340            android:required="false" />
-340-->[androidx.window:window:1.0.0-beta04] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d7087e0acd5dc51eacf8b097fc8457a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-341
-342        <provider
-342-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:23:9-28:39
-343            android:name="com.google.firebase.provider.FirebaseInitProvider"
-343-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:24:13-77
-344            android:authorities="com.qilowatt.qilowatt.firebaseinitprovider"
-344-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:25:13-72
-345            android:directBootAware="true"
-345-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:26:13-43
-346            android:exported="false"
-346-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:27:13-37
-347            android:initOrder="100" />
-347-->[com.google.firebase:firebase-common:20.4.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/ea7f18d031a101a05e7f554ed89d9bf0/transformed/jetified-firebase-common-20.4.3/AndroidManifest.xml:28:13-36
-348
-349        <activity
-349-->[com.google.android.gms:play-services-base:18.0.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/7e5b24180d18278e8ac4bf24848c6162/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-350            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-350-->[com.google.android.gms:play-services-base:18.0.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/7e5b24180d18278e8ac4bf24848c6162/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-351            android:exported="false"
-351-->[com.google.android.gms:play-services-base:18.0.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/7e5b24180d18278e8ac4bf24848c6162/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-352            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-352-->[com.google.android.gms:play-services-base:18.0.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/7e5b24180d18278e8ac4bf24848c6162/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-353
-354        <meta-data
-354-->[com.google.android.gms:play-services-basement:18.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
-355            android:name="com.google.android.gms.version"
-355-->[com.google.android.gms:play-services-basement:18.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
-356            android:value="@integer/google_play_services_version" />
-356-->[com.google.android.gms:play-services-basement:18.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09143003e359ba1b20c648312b87fa94/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
-357
-358        <provider
-358-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-359            android:name="androidx.startup.InitializationProvider"
-359-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-360            android:authorities="com.qilowatt.qilowatt.androidx-startup"
-360-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-361            android:exported="false" >
-361-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-362            <meta-data
-362-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-363                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-363-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-364                android:value="androidx.startup" />
-364-->[androidx.emoji2:emoji2:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/4dcaaff943e72ae601281e1c32b92db6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-365            <meta-data
-365-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/5e57c2f6ab113fcdfab63dfdd79d1a8f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-366                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-366-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/5e57c2f6ab113fcdfab63dfdd79d1a8f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-367                android:value="androidx.startup" />
-367-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/5e57c2f6ab113fcdfab63dfdd79d1a8f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-368            <meta-data
-368-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-369                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-369-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-370                android:value="androidx.startup" />
-370-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-371        </provider>
-372
-373        <service
-373-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
-374            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-374-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
-375            android:exported="false"
-375-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
-376            android:permission="android.permission.BIND_JOB_SERVICE" >
-376-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
-377        </service>
-378
-379        <receiver
-379-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
-380            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-380-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
-381            android:exported="false" />
-381-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/Marko.Praakli/.gradle/caches/transforms-3/72028d1b17b1be5168035d7522803ef1/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
-382        <receiver
-382-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-383            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-383-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-384            android:directBootAware="false"
-384-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-385            android:enabled="true"
-385-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-386            android:exported="true"
-386-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-387            android:permission="android.permission.DUMP" >
-387-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-388            <intent-filter>
-388-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-389                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-389-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-389-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-390            </intent-filter>
-391            <intent-filter>
-391-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-392                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-392-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-392-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-393            </intent-filter>
-394            <intent-filter>
-394-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-395                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-395-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-395-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-396            </intent-filter>
-397            <intent-filter>
-397-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-398                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-398-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-398-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/8d711af0bfa1c8eb3d65d8c6d2ec26b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-399            </intent-filter>
-400        </receiver>
+228        <activity
+228-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+229            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+229-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-112
+230            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+230-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+231            android:exported="false"
+231-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+232            android:theme="@style/AppTheme" />
+232-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+233        <activity
+233-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+234            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+234-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-120
+235            android:exported="false"
+235-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+236            android:theme="@style/ThemeTransparent" />
+236-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+237        <activity
+237-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+238            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+238-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-114
+239            android:exported="false"
+239-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+240            android:theme="@style/ThemeTransparent" />
+240-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+241        <activity
+241-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+242            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+242-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-134
+243            android:exported="false"
+243-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+244            android:launchMode="singleInstance"
+244-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+245            android:theme="@style/ThemeTransparent" />
+245-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+246        <activity
+246-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+247            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+247-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-128
+248            android:exported="false"
+248-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+249            android:launchMode="singleInstance"
+249-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+250            android:theme="@style/ThemeTransparent" />
+250-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+251
+252        <receiver
+252-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+253            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+253-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-119
+254            android:enabled="true"
+254-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+255            android:exported="false" />
+255-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+256
+257        <meta-data
+257-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+258            android:name="io.flutter.embedded_views_preview"
+258-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+259            android:value="true" />
+259-->[:flutter_inappwebview_android] /Users/Marko.Praakli/Workspace/qwmobapp/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+260
+261        <property
+261-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+262            android:name="android.adservices.AD_SERVICES_CONFIG"
+262-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+263            android:resource="@xml/ga_ad_services_config" />
+263-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+264
+265        <receiver
+265-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:29:9-40:20
+266            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+266-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:30:13-78
+267            android:exported="true"
+267-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:31:13-36
+268            android:permission="com.google.android.c2dm.permission.SEND" >
+268-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:32:13-73
+269            <intent-filter>
+269-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+270                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+270-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+270-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+271            </intent-filter>
+272
+273            <meta-data
+273-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:37:13-39:40
+274                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+274-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:38:17-92
+275                android:value="true" />
+275-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:39:17-37
+276        </receiver>
+277        <!--
+278             FirebaseMessagingService performs security checks at runtime,
+279             but set to not exported to explicitly avoid allowing another app to call it.
+280        -->
+281        <service
+281-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:46:9-53:19
+282            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+282-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:47:13-82
+283            android:directBootAware="true"
+283-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:48:13-43
+284            android:exported="false" >
+284-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:49:13-37
+285            <intent-filter android:priority="-500" >
+285-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+286                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+286-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+286-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+287            </intent-filter>
+288        </service>
+289        <service
+289-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:22:9-25:40
+290            android:name="com.google.firebase.sessions.SessionLifecycleService"
+290-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:23:13-80
+291            android:enabled="true"
+291-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:24:13-35
+292            android:exported="false" />
+292-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:25:13-37
+293        <service
+293-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:21:9-28:19
+294            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+294-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:22:13-89
+295            android:exported="true"
+295-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:23:13-36
+296            android:label="My Notification Listener Service" >
+296-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:24:13-61
+297            <intent-filter>
+297-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:25:13-27:29
+298                <action android:name="android.service.notification.NotificationListenerService" />
+298-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:26:17-99
+298-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:26:25-96
+299            </intent-filter>
+300        </service>
+301        <service
+301-->[androidx.room:room-runtime:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/8cd87c9f3815d148e2a53e7799c1cd13/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+302            android:name="androidx.room.MultiInstanceInvalidationService"
+302-->[androidx.room:room-runtime:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/8cd87c9f3815d148e2a53e7799c1cd13/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+303            android:directBootAware="true"
+303-->[androidx.room:room-runtime:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/8cd87c9f3815d148e2a53e7799c1cd13/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+304            android:exported="false" />
+304-->[androidx.room:room-runtime:2.6.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/8cd87c9f3815d148e2a53e7799c1cd13/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+305
+306        <uses-library
+306-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+307            android:name="androidx.window.extensions"
+307-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+308            android:required="false" />
+308-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+309        <uses-library
+309-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+310            android:name="androidx.window.sidecar"
+310-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+311            android:required="false" />
+311-->[androidx.window:window:1.2.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/02d7b04be8ccd27a5c489689e9473b50/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+312
+313        <receiver
+313-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+314            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+314-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+315            android:enabled="true"
+315-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+316            android:exported="false" >
+316-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+317        </receiver>
+318
+319        <service
+319-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+320            android:name="com.google.android.gms.measurement.AppMeasurementService"
+320-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+321            android:enabled="true"
+321-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+322            android:exported="false" />
+322-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+323        <service
+323-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+324            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+324-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+325            android:enabled="true"
+325-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+326            android:exported="false"
+326-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+327            android:permission="android.permission.BIND_JOB_SERVICE" />
+327-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/5bca74de6b1ce48c13f040e56b78f783/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+328
+329        <provider
+329-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+330            android:name="com.google.firebase.provider.FirebaseInitProvider"
+330-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+331            android:authorities="com.qilowatt.qilowatt.firebaseinitprovider"
+331-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+332            android:directBootAware="true"
+332-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+333            android:exported="false"
+333-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+334            android:initOrder="100" />
+334-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+335
+336        <activity
+336-->[com.google.android.gms:play-services-base:18.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/442897441e646ad28464b33e7f7181d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+337            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+337-->[com.google.android.gms:play-services-base:18.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/442897441e646ad28464b33e7f7181d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+338            android:exported="false"
+338-->[com.google.android.gms:play-services-base:18.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/442897441e646ad28464b33e7f7181d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+339            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+339-->[com.google.android.gms:play-services-base:18.5.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/442897441e646ad28464b33e7f7181d0/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+340
+341        <meta-data
+341-->[com.google.android.gms:play-services-basement:18.4.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/7dafd845442a6ed43951f7ba80b3567a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+342            android:name="com.google.android.gms.version"
+342-->[com.google.android.gms:play-services-basement:18.4.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/7dafd845442a6ed43951f7ba80b3567a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+343            android:value="@integer/google_play_services_version" />
+343-->[com.google.android.gms:play-services-basement:18.4.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/7dafd845442a6ed43951f7ba80b3567a/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+344
+345        <provider
+345-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+346            android:name="androidx.startup.InitializationProvider"
+346-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+347            android:authorities="com.qilowatt.qilowatt.androidx-startup"
+347-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+348            android:exported="false" >
+348-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+349            <meta-data
+349-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+350                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+350-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+351                android:value="androidx.startup" />
+351-->[androidx.emoji2:emoji2:1.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/0b6dbc5219a5498b225261b15748dfd7/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+352            <meta-data
+352-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/07d4d7c729eae539fb5102207e1e155f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+353                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+353-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/07d4d7c729eae539fb5102207e1e155f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+354                android:value="androidx.startup" />
+354-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/07d4d7c729eae539fb5102207e1e155f/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+355            <meta-data
+355-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+356                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+356-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+357                android:value="androidx.startup" />
+357-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+358        </provider>
+359
+360        <uses-library
+360-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/eff61d32f1ce82a699b9179e4e1feab5/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+361            android:name="android.ext.adservices"
+361-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/eff61d32f1ce82a699b9179e4e1feab5/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+362            android:required="false" />
+362-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Marko.Praakli/.gradle/caches/transforms-3/eff61d32f1ce82a699b9179e4e1feab5/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+363
+364        <service
+364-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+365            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+365-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+366            android:exported="false" >
+366-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+367            <meta-data
+367-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+368                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+368-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+369                android:value="cct" />
+369-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/09ebd74664dc0ecdc461dd1798144e59/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+370        </service>
+371
+372        <receiver
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+373            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+374            android:directBootAware="false"
+374-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+375            android:enabled="true"
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+376            android:exported="true"
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+377            android:permission="android.permission.DUMP" >
+377-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+379                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+380            </intent-filter>
+381            <intent-filter>
+381-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+382                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+382-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+382-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+383            </intent-filter>
+384            <intent-filter>
+384-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+385                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+385-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+385-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+386            </intent-filter>
+387            <intent-filter>
+387-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+388                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+388-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+388-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/06a6609cffc69ac765c90f8b3c9f9fb5/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+389            </intent-filter>
+390        </receiver>
+391
+392        <service
+392-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+393            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+393-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+394            android:exported="false"
+394-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+395            android:permission="android.permission.BIND_JOB_SERVICE" >
+395-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+396        </service>
+397
+398        <receiver
+398-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+399            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+399-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+400            android:exported="false" />
+400-->[com.google.android.datatransport:transport-runtime:3.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/64fb11a59b3b4e40fc3cc1fc9bea0cb4/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
 401    </application>
 402
 403</manifest>

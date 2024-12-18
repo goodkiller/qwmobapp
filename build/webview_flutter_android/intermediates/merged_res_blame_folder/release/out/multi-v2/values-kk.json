@@ -1,31 +1,31 @@
 {
     "logs": [
         {
-            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-merged_res-11:/values-kk/values-kk.xml",
+            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-merged_res-27:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res/values-kk/values-kk.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/res/values-kk/values-kk.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,354,457,561,658,769",
+                        "endColumns": "94,101,101,102,103,96,110,100",
+                        "endOffsets": "145,247,349,452,556,653,764,865"
                     }
                 }
             ]
         },
         {
-            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-9:/values-kk/values-kk.xml",
+            "outputFile": "io.flutter.plugins.webviewflutter.webview_flutter_android-mergeReleaseResources-25:/values-kk/values-kk.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/571d3bc6430d0c9abe030120c20196f4/transformed/core-1.6.0/res/values-kk/values-kk.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/cd7f94b9e1b1a2f6c94a57cb8143aacd/transformed/core-1.13.1/res/values-kk/values-kk.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,150,252,354,457,561,658,769",
+                        "endColumns": "94,101,101,102,103,96,110,100",
+                        "endOffsets": "145,247,349,452,556,653,764,865"
                     }
                 }
             ]

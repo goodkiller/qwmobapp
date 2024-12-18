@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.qilowatt.qilowatt.app-mergeReleaseResources-55:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.qilowatt.qilowatt.app-mergeReleaseResources-57:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/32ea47c08beaa2a8e88da6f6a6ffda07/transformed/appcompat-1.7.0/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

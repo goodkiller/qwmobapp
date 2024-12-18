@@ -27,8 +27,7 @@ class HomeController {
     return token;
   }
 
-  Future<dynamic> _getJwtDataFromCookies(
-      InAppWebViewController? controller, BuildContext context) async {
+  Future<dynamic> _getJwtDataFromCookies(InAppWebViewController? controller) async {
     final String cookies =
         ((await controller?.evaluateJavascript(source: 'document.cookie')) ??
             '') as String;
@@ -94,14 +93,16 @@ class HomeController {
       isFCMTokenChecked = false;
     } else if (value == baseUri ||
         value == "https://app.qilowatt.it/account/profile") {
-      final jwtPayload =
-          await _getJwtDataFromCookies(webViewController, context);
+      final jwtPayload = await _getJwtDataFromCookies(webViewController);
 
       if (jwtPayload == null) {
         return;
       }
 
-      _updateAppLanguage(jwtPayload, context);
+      // Check if context is still valid before using it
+      if (context.mounted) {
+        _updateAppLanguage(jwtPayload, context);
+      }
       await _checkFCMToken(jwtPayload);
     }
   }

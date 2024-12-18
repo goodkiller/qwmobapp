@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "me.carda.awesome_notifications-merged_res-42:/values-v24/values-v24.xml",
+            "outputFile": "me.carda.awesome_notifications-merged_res-43:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/9e43ec65a6254874eb023530de827f00/transformed/media-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/32ea47c08beaa2a8e88da6f6a6ffda07/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/9ee4232c2ba1f563efc79588a55413aa/transformed/media-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +31,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/6244a7ffb35a57a5e503dfdfc00ce96a/transformed/material-1.11.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/246f6292ca51fedfdf4292f38546a201/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -37,25 +47,25 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]
         },
         {
-            "outputFile": "me.carda.awesome_notifications-mergeReleaseResources-40:/values-v24/values-v24.xml",
+            "outputFile": "me.carda.awesome_notifications-mergeReleaseResources-41:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/9e43ec65a6254874eb023530de827f00/transformed/media-1.7.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/32ea47c08beaa2a8e88da6f6a6ffda07/transformed/appcompat-1.7.0/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/9ee4232c2ba1f563efc79588a55413aa/transformed/media-1.7.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -72,7 +82,7 @@
                     }
                 },
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/6244a7ffb35a57a5e503dfdfc00ce96a/transformed/material-1.11.0/res/values-v24/values-v24.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/246f6292ca51fedfdf4292f38546a201/transformed/material-1.12.0/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -88,16 +98,6 @@
                         "endLines": "4,5,6,7,10,13,16,19",
                         "endColumns": "84,98,86,100,10,10,10,10",
                         "endOffsets": "427,526,613,714,913,1126,1327,1542"
-                    }
-                },
-                {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
                     }
                 }
             ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.pichillilorenzo.flutter_inappwebview_android-mergeReleaseResources-25:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.pichillilorenzo.flutter_inappwebview_android-mergeReleaseResources-31:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/bc794047bf2dbc49a08e66cd7b99b399/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "com.pichillilorenzo.flutter_inappwebview_android-merged_res-27:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.pichillilorenzo.flutter_inappwebview_android-merged_res-33:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/dccc218addc55ccd5839361ac1e681f3/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/Users/Marko.Praakli/.gradle/caches/transforms-3/bc794047bf2dbc49a08e66cd7b99b399/transformed/appcompat-1.6.1/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

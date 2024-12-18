@@ -53,13 +53,14 @@ class MyApp extends StatelessWidget {
               scaffoldBackgroundColor: Colors.white,
               canvasColor: Colors.white,
               colorScheme: ColorScheme.fromSeed(
-                  primary: Colors.white,
-                  secondary: Colors.white,
-                  onBackground: Colors.white,
-                  tertiary: Colors.white,
-                  seedColor: Colors.white,
-                  surface: Colors.white,
-                  surfaceTint: Colors.white),
+                primary: Colors.white,
+                secondary: Colors.white,
+                onSurface: Colors.white, // Replaced onBackground with onSurface
+                tertiary: Colors.white,
+                seedColor: Colors.white,
+                surface: Colors.white,
+                surfaceTint: Colors.white,
+              ),
             ),
             initialRoute: "/",
             title: 'qilowatt',
@@ -71,7 +72,7 @@ class MyApp extends StatelessWidget {
             ],
             supportedLocales: const [
               Locale('en'), // English
-              Locale('et'), // Spanish
+              Locale('et'), // Estonian
             ],
             locale: provider.locale,
             home: const Home(
