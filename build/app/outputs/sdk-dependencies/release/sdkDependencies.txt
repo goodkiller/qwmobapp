@@ -995,7 +995,7 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-bom"
-    version: "33.5.1"
+    version: "33.7.0"
   }
   repo_index {
   }
@@ -1497,10 +1497,10 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-crashlytics"
-    version: "19.2.1"
+    version: "19.3.0"
   }
   digests {
-    sha256: "dI%\236n}{\344\227p\343\222\f\023\373\244R@\3562\235\217\372\370\355=\263b\\m\237\337"
+    sha256: "]X\326\251\017kt\231Q\316\307\036\rz\2734\235\342\3101\224\222\356h\375O\243\334\261\266\254\252"
   }
   repo_index {
   }
@@ -1509,10 +1509,10 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-sessions"
-    version: "2.0.6"
+    version: "2.0.7"
   }
   digests {
-    sha256: "\210\261\316\253\210\374_o\257gg\277\037\026.\016?P\220xkwC@`\024\303CC\204\027)"
+    sha256: ")O\340\024\336<\242\v2\376r\340\323 c\323\221\241h\335\276^\217\240j\254\275^8!\311D"
   }
   repo_index {
   }
@@ -1665,10 +1665,10 @@ library {
   maven_library {
     groupId: "com.google.firebase"
     artifactId: "firebase-messaging"
-    version: "24.0.3"
+    version: "24.1.0"
   }
   digests {
-    sha256: "\271I\324\343\v\312%\346\210\325~:kd\336\270\036\347X\374\324 \277\357j\222|\377%\247)d"
+    sha256: "\325\357>\352\027 \214\362\024\375\3541\037}\034G\216\321\301\2349\243\260c\023\361\022\210\307#\004\331"
   }
   repo_index {
   }
@@ -1786,7 +1786,7 @@ library {
 }
 library {
   digests {
-    sha256: "\004U\374\266\255H5q{\316h\213\340\205\317\341i4?\000a\261M7\311\334\372n\207&i^"
+    sha256: "to\\8\3343\324K\352\022;\337\213\233\016\315K6\264\177\347\242\3602\353T\006\236\177B\372\246"
   }
 }
 library_dependencies {

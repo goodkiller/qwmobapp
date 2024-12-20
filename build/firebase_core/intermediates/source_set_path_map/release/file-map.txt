@@ -20,8 +20,8 @@ io.flutter.plugins.firebase.core.firebase_core-core-1.13.1-18 /Users/Marko.Praak
 io.flutter.plugins.firebase.core.firebase_core-jetified-savedstate-1.2.1-19 /Users/Marko.Praakli/.gradle/caches/transforms-3/d843b1008b04ebd2a884b12cc7108be9/transformed/jetified-savedstate-1.2.1/res
 io.flutter.plugins.firebase.core.firebase_core-jetified-core-1.0.0-20 /Users/Marko.Praakli/.gradle/caches/transforms-3/e05ce04288257027797634ce4591bf1b/transformed/jetified-core-1.0.0/res
 io.flutter.plugins.firebase.core.firebase_core-core-runtime-2.2.0-21 /Users/Marko.Praakli/.gradle/caches/transforms-3/f302af12218546ec3fe4e8862a63786a/transformed/core-runtime-2.2.0/res
-io.flutter.plugins.firebase.core.firebase_core-main-22 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_core-3.8.1/android/src/main/res
-io.flutter.plugins.firebase.core.firebase_core-release-23 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_core-3.8.1/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-main-22 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_core-3.9.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-23 /Users/Marko.Praakli/.pub-cache/hosted/pub.dev/firebase_core-3.9.0/android/src/release/res
 io.flutter.plugins.firebase.core.firebase_core-pngs-24 /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/generated/res/pngs/release
 io.flutter.plugins.firebase.core.firebase_core-resValues-25 /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/generated/res/resValues/release
 io.flutter.plugins.firebase.core.firebase_core-rs-26 /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/generated/res/rs/release

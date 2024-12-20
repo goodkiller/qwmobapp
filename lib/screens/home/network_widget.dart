@@ -9,7 +9,7 @@ class NetworkConnectionWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<ConnectivityResult>(
-      future: Connectivity().checkConnectivity().then((list) => list.first),
+      future: Connectivity().checkConnectivity(),
       builder: (BuildContext context, AsyncSnapshot<ConnectivityResult> futureSnapshot) {
         // Show loading indicator while waiting for the Future
         if (futureSnapshot.connectionState == ConnectionState.waiting) {
@@ -24,9 +24,7 @@ class NetworkConnectionWidget extends StatelessWidget {
         final ConnectivityResult initialResult = futureSnapshot.data ?? ConnectivityResult.none;
 
         return StreamBuilder<ConnectivityResult>(
-          stream: Connectivity()
-              .onConnectivityChanged
-              .map((list) => list.first), // Ensure single ConnectivityResult
+          stream: Connectivity().onConnectivityChanged,
           initialData: initialResult,
           builder: (BuildContext context, AsyncSnapshot<ConnectivityResult> streamSnapshot) {
             final ConnectivityResult? result = streamSnapshot.data;

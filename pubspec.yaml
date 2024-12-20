@@ -37,7 +37,7 @@ dependencies:
   firebase_messaging: ^15.1.6
   rxdart: ^0.28.0
   cloud_firestore: ^5.5.1
-  connectivity_plus: ^6.1.1
+  connectivity_plus: ^5.0.1
   overlay_support: ^2.0.6
   flutter_local_notifications: any
   awesome_notifications: ^0.10.0

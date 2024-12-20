@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.qilowatt.qilowatt"
-4    android:versionCode="20"
+4    android:versionCode="21"
 5    android:versionName="2.0" >
 6
 7    <uses-sdk
@@ -52,8 +52,8 @@
 27-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
 27-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
 28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-28-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:26:5-82
-28-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:26:22-79
+28-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:26:22-79
 29    <uses-permission
 29-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:9:5-12:47
 30        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
@@ -284,7 +284,7 @@
 144            android:directBootAware="true"
 144-->[com.google.firebase:firebase-common:21.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/731940578d25033c4522a8f1ac144740/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
 145            android:exported="false" >
-145-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:14:13-37
+145-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:14:13-37
 146            <meta-data
 146-->[:cloud_firestore] /Users/Marko.Praakli/Workspace/qwmobapp/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 147                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
@@ -316,17 +316,17 @@
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
 160-->[:firebase_core] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 161            <meta-data
-161-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:15:13-17:85
+161-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:15:13-17:85
 162                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
-162-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:16:17-126
+162-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:16:17-126
 163                android:value="com.google.firebase.components.ComponentRegistrar" />
-163-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:17:17-82
+163-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:17:17-82
 164            <meta-data
-164-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:18:13-20:85
+164-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:18:13-20:85
 165                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
-165-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:19:17-115
+165-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:19:17-115
 166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-crashlytics:19.2.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/AndroidManifest.xml:20:17-82
+166-->[com.google.firebase:firebase-crashlytics:19.3.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/AndroidManifest.xml:20:17-82
 167            <meta-data
 167-->[com.google.firebase:firebase-firestore:25.1.1] /Users/Marko.Praakli/.gradle/caches/transforms-3/f6f94b882b707f36bd416401709369fc/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
 168                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
@@ -346,23 +346,23 @@
 175                android:value="com.google.firebase.components.ComponentRegistrar" />
 175-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
 176            <meta-data
-176-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:57:13-59:85
+176-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:57:13-59:85
 177                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
-177-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:58:17-122
+177-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:58:17-122
 178                android:value="com.google.firebase.components.ComponentRegistrar" />
-178-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:59:17-82
+178-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:59:17-82
 179            <meta-data
-179-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:60:13-62:85
+179-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:60:13-62:85
 180                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-180-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:61:17-119
+180-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:61:17-119
 181                android:value="com.google.firebase.components.ComponentRegistrar" />
-181-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:62:17-82
+181-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:62:17-82
 182            <meta-data
-182-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:29:13-31:85
+182-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:29:13-31:85
 183                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
-183-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:30:17-117
+183-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:30:17-117
 184                android:value="com.google.firebase.components.ComponentRegistrar" />
-184-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:31:17-82
+184-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:31:17-82
 185            <meta-data
 185-->[com.google.firebase:firebase-installations:18.0.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/601ad2fb5602a706f9252e756edf38c3/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
 186                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
@@ -514,13 +514,13 @@
 263-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/Marko.Praakli/.gradle/caches/transforms-3/439065ae83f5a338caa97eb3ca18bc5e/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
 264
 265        <receiver
-265-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:29:9-40:20
+265-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:29:9-40:20
 266            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-266-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:30:13-78
+266-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:30:13-78
 267            android:exported="true"
-267-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:31:13-36
+267-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:31:13-36
 268            android:permission="com.google.android.c2dm.permission.SEND" >
-268-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:32:13-73
+268-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:32:13-73
 269            <intent-filter>
 269-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
 270                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -529,24 +529,24 @@
 271            </intent-filter>
 272
 273            <meta-data
-273-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:37:13-39:40
+273-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:37:13-39:40
 274                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
-274-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:38:17-92
+274-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:38:17-92
 275                android:value="true" />
-275-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:39:17-37
+275-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:39:17-37
 276        </receiver>
 277        <!--
 278             FirebaseMessagingService performs security checks at runtime,
 279             but set to not exported to explicitly avoid allowing another app to call it.
 280        -->
 281        <service
-281-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:46:9-53:19
+281-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:46:9-53:19
 282            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-282-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:47:13-82
+282-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:47:13-82
 283            android:directBootAware="true"
-283-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:48:13-43
+283-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:48:13-43
 284            android:exported="false" >
-284-->[com.google.firebase:firebase-messaging:24.0.3] /Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/AndroidManifest.xml:49:13-37
+284-->[com.google.firebase:firebase-messaging:24.1.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/AndroidManifest.xml:49:13-37
 285            <intent-filter android:priority="-500" >
 285-->[:firebase_messaging] /Users/Marko.Praakli/Workspace/qwmobapp/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
 286                <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -555,13 +555,13 @@
 287            </intent-filter>
 288        </service>
 289        <service
-289-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:22:9-25:40
+289-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:22:9-25:40
 290            android:name="com.google.firebase.sessions.SessionLifecycleService"
-290-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:23:13-80
+290-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:23:13-80
 291            android:enabled="true"
-291-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:24:13-35
+291-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:24:13-35
 292            android:exported="false" />
-292-->[com.google.firebase:firebase-sessions:2.0.6] /Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/AndroidManifest.xml:25:13-37
+292-->[com.google.firebase:firebase-sessions:2.0.7] /Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/AndroidManifest.xml:25:13-37
 293        <service
 293-->[me.carda:AndroidAwnCore:0.10.0] /Users/Marko.Praakli/.gradle/caches/transforms-3/e2db513fe9d31e0a0b755ea992874021/transformed/jetified-AndroidAwnCore-0.10.0/AndroidManifest.xml:21:9-28:19
 294            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"

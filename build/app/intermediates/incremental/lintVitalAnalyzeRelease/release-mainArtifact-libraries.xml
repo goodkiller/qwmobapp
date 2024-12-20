@@ -872,10 +872,10 @@
       resolved="com.google.j2objc:j2objc-annotations:2.8"
       provided="true"/>
   <library
-      name="com.google.firebase:firebase-crashlytics:19.2.1@aar"
-      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1/jars/classes.jar"
-      resolved="com.google.firebase:firebase-crashlytics:19.2.1"
-      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/f12065e67738e3874e679e15ddf88173/transformed/jetified-firebase-crashlytics-19.2.1"
+      name="com.google.firebase:firebase-crashlytics:19.3.0@aar"
+      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-crashlytics:19.3.0"
+      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/45e0896f0fb8a5295179d56f003b8c74/transformed/jetified-firebase-crashlytics-19.3.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -898,10 +898,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.firebase:firebase-messaging:24.0.3@aar"
-      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3/jars/classes.jar"
-      resolved="com.google.firebase:firebase-messaging:24.0.3"
-      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/a67395c0f462835c02fbfec4ac5294ce/transformed/jetified-firebase-messaging-24.0.3"
+      name="com.google.firebase:firebase-messaging:24.1.0@aar"
+      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0/jars/classes.jar"
+      resolved="com.google.firebase:firebase-messaging:24.1.0"
+      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/131df4509be0b70f59a5cf6f32ceac05/transformed/jetified-firebase-messaging-24.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -911,10 +911,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.firebase:firebase-sessions:2.0.6@aar"
-      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6/jars/classes.jar"
-      resolved="com.google.firebase:firebase-sessions:2.0.6"
-      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/9a92057fb773b34430fc55c2644ed4a6/transformed/jetified-firebase-sessions-2.0.6"
+      name="com.google.firebase:firebase-sessions:2.0.7@aar"
+      jars="/Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7/jars/classes.jar"
+      resolved="com.google.firebase:firebase-sessions:2.0.7"
+      folder="/Users/Marko.Praakli/.gradle/caches/transforms-3/cf266fa05e819a37e84dc260fdb49965/transformed/jetified-firebase-sessions-2.0.7"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

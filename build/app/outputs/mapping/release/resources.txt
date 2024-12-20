@@ -2174,7 +2174,6 @@ notificationResponseType
 com.pichillilorenzo/flutter_headless_...
 targetType_
 measurement_enabled
-19.2.1
 ACTION_ARGUMENT_EXTEND_SELECTION_BOOLEAN
 grab
 initialScale
@@ -2925,7 +2924,6 @@ event_id
 SUSPEND
 app_store_subscription_renew
 arch
-5.5.1
 standard
 reports
 androidx.core.view.inputmethod.InputC...
@@ -3332,6 +3330,7 @@ defaults
 dev.flutter.pigeon.webview_flutter_an...
 timezoneOffsetSeconds
 getPlatformVersion
+5.6.0
 SidecarCompat
 DROP_LATEST
 responseArg
@@ -4573,7 +4572,6 @@ num_attempts
 GREATER_THAN_OR_EQUAL
 http://
 app_flutter
-24.0.3
 AwesomeNotificationsFlutterExtension
 com.google.android.gms.providerinstal...
 dev.flutter.pigeon.webview_flutter_an...
@@ -4971,6 +4969,7 @@ TraceCompat
 com.google.android.gms.measurement.ap...
 invokeSuspend
 GET_WEB_VIEW_CLIENT
+24.1.0
 getEmojiConsistencySet
 measurement.rb.attribution.client.min...
 dev.flutter.pigeon.webview_flutter_an...
@@ -5904,7 +5903,6 @@ Private
 dispatcher
 MILLISECONDS
 dev.flutter.pigeon.FirebaseAppHostApi...
-3.8.1
 com.google.android.clockwork.home.UPD...
 index
 array_contains_any
@@ -6385,6 +6383,7 @@ GET_WEB_VIEW_RENDERER
 FirebaseApp
 linear
 _fi
+3.9.0
 extraNotification
 BasePendingResult
 iconFade
@@ -7030,6 +7029,7 @@ channels
 secondaryToolbarColor
 NotificationContentModel
 campaign
+19.3.0
 HEALTH_CHECK_TIMEOUT
 RECEIVE_HTTP_ERROR
 androidx.lifecycle.internal.SavedStat...
@@ -7260,7 +7260,7 @@ scope
 SET_SELECTION
 __previous_value__
 BEGINS_WITH
-2.0.6
+2.0.7
 label
 measurement.upload.max_error_events_p...
 message
