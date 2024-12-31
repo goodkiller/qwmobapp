@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">163829798275</string>
-    <string name="google_api_key" translatable="false">AIzaSyDI4_jXeqcIHPy2YhHAzEPCCdrKQuAg-VE</string>
-    <string name="google_app_id" translatable="false">1:163829798275:android:00892fd91127b7ddf4d2b6</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDI4_jXeqcIHPy2YhHAzEPCCdrKQuAg-VE</string>
-    <string name="google_storage_bucket" translatable="false">qilowatt-it.appspot.com</string>
-    <string name="project_id" translatable="false">qilowatt-it</string>
-</resources>
