@@ -11,7 +11,6 @@ class NetworkConnectionWidget extends StatelessWidget {
     return FutureBuilder<ConnectivityResult>(
       future: Connectivity().checkConnectivity(),
       builder: (BuildContext context, AsyncSnapshot<ConnectivityResult> futureSnapshot) {
-        // Show loading indicator while waiting for the Future
         if (futureSnapshot.connectionState == ConnectionState.waiting) {
           return const Center(
             child: CircularProgressIndicator(
@@ -20,22 +19,19 @@ class NetworkConnectionWidget extends StatelessWidget {
           );
         }
 
-        // FutureBuilder complete, set initial network state
         final ConnectivityResult initialResult = futureSnapshot.data ?? ConnectivityResult.none;
 
         return StreamBuilder<ConnectivityResult>(
-          stream: Connectivity().onConnectivityChanged,
+          stream: Connectivity().onConnectivityChanged, // Ensure this returns a Stream<ConnectivityResult>
           initialData: initialResult,
           builder: (BuildContext context, AsyncSnapshot<ConnectivityResult> streamSnapshot) {
             final ConnectivityResult? result = streamSnapshot.data;
 
             if (result != null && result != ConnectivityResult.none) {
-              // If connected, show the child widget
-              return child;
+              return child; // Show child if connected
             } else {
-              // If offline, show an offline image
               return Center(
-                child: Image.asset("assets/images/offline.png"),
+                child: Image.asset("assets/images/offline.png"), // Show offline image if disconnected
               );
             }
           },
